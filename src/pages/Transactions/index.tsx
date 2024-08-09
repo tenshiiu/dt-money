@@ -4,7 +4,7 @@ import { Summary } from "../../components/Summary";
 import { SearchForm } from "./components/SearchForm/index.tsx";
 import { TransactionsContainer, TransactionsTable, PriceHighLight } from "./styled";
 import { TransactionsContext } from "../../contexts/TransactionsContext.tsx";
-import { priceFormatter } from "../../utils/formatter.ts";
+import { dateFormatter, priceFormatter } from "../../utils/formatter.ts";
 
 export function Transactions() {
     const { transactions } = useContext(TransactionsContext);
@@ -30,7 +30,7 @@ export function Transactions() {
                             </PriceHighLight>
                             </td>
                         <td>{transaction.category}</td>
-                        <td>{transaction.createdAt}</td>
+                        <td>{dateFormatter.format(new Date(transaction.createdAt))}</td>
                         </tr>
                         )
                     })}
