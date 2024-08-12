@@ -1,31 +1,44 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 14000,
-            "createdAt": "2024-08-07T18:52:02.845Z"
-        },
-
-        {
-            "id": 2,
-            "description": "Hambúrguer",
-            "type": "outcome",
-            "category": "Alimentação",
-            "price": 50,
-            "createdAt": "2024-08-07T18:30:02.845Z"
-        },
-
-        {
-            "id": 3,
-            "description": "Curso",
-            "type": "outcome",
-            "category": "Educação",
-            "price": 1980,
-            "createdAt": "2024-08-07T18:24:02.845Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": "1",
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2024-08-07T18:52:02.845Z"
+    },
+    {
+      "id": "2",
+      "description": "Hambúrguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2024-08-07T18:30:02.845Z"
+    },
+    {
+      "id": "3",
+      "description": "Curso",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1980,
+      "createdAt": "2024-08-07T18:24:02.845Z"
+    },
+    {
+      "id": "3a55",
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-08-12T17:34:52.832Z"
+    },
+    {
+      "id": "d77d",
+      "description": "Salgado",
+      "price": 6,
+      "category": "Alimentação",
+      "type": "income",
+      "createdAt": "2024-08-12T18:31:14.828Z"
+    }
+  ]
 }
-
