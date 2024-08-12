@@ -37,8 +37,16 @@
       "description": "Salgado",
       "price": 6,
       "category": "Alimentação",
-      "type": "income",
+      "type": "outcome",
       "createdAt": "2024-08-12T18:31:14.828Z"
+    },
+    {
+      "id": "e7c4",
+      "description": "Uber",
+      "price": 22,
+      "category": "Transporte",
+      "type": "outcome",
+      "createdAt": "2024-08-12T18:34:41.869Z"
     }
   ]
 }
